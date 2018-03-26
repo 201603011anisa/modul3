@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<title>TUGAS CSS_MODUL 3</title>
+    <style>
+        #octagon {
+	width: 260px;
+	height: 120px;
+	background: rgb(85,136,170);
+	position: relative;
+}
+
+#octagon:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 20px solid rgb(85,136,170);
+	border-left: 20px solid #eee;
+	border-right: 20px solid #eee;
+	width: 220px;
+	height: 0;
+}
+
+#octagon:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 20px solid rgb(85,136,170);
+	border-left: 20px solid #eee;
+	border-right: 20px solid #eee;
+	width: 220px;
+	height: 0;
+}
+    #text {
+            padding: 4%;
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+    <head><h1>Soal no 2</h1></head>
+	<body>
+        
+		<div id="octagon">
+        <div id="border">
+        <div id= "text">
+            <h2>Tugas Modul 3<br>Soal No 2</h2>
+            </div>
+            </div>
+            </div>    
+        
+	</body>
+</html>
